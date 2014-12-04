@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="scena" tilewidth="32" tileheight="32">
+  <image source="../bloques/fondo.png" width="480" height="320"/>
+ </tileset>
+ <tileset firstgid="151" name="scena2" tilewidth="32" tileheight="32">
+  <image source="../bloques/mapa2.png" width="480" height="320"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwNwwc3FgAAAMCPrIwUGSWhUtb/NUplZa+syt5bQ0WRREJEQpFR995dfiAQKLDQIu/7wGIf+sjHllhqmeVW+MRKq6y2xlrrrLfBRpts9qktttpmux0+87kv7LTLbnvstc9+Bxx0yGFHHHXMcSecdMppZ3zpK1/7xlnf+s73zjnvBz+64KKfXPKzy35xxVW/uuY3191w0+9uue0Pd9z1p3v+ct8DD/3tH4889q8nnnrmuf8MBGGwFwwx1DDDjfCikUYZbYyXjPWyV4wz3qsmmGiSyV7zuineMNWbppluhre87R0zves9s8w2x1zz/A+iFVdP
+  </data>
+ </layer>
+</map>

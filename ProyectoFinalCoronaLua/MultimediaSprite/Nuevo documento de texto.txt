@@ -1,0 +1,43 @@
+  local opcionesCamI = {
+    width =45,
+    height = 43,
+    numFrames = 4
+  }
+  local hojaCamI = graphics.newImageSheet("12.png", opcionesCamI)
+
+  local secuenciaCamI = {
+    {name = "Izq",
+    start = 1,
+    count = 4,
+    time = 2000,
+    loopCount = 0,
+    loopDirection ="bounce"  --"bounce", --forward
+  }
+}
+
+local spriteCamI = display.newSprite(hojaCamI, secuenciaCamI)
+spriteCamI:play()
+spriteCamI:setFrame(1)
+screenGroup:insert(spriteCamI)
+
+local opcionesCamD = {
+  width =45,
+  height = 43,
+  numFrames = 4
+}
+local hojaCamD = graphics.newImageSheet("10.png", opcionesCamD)
+
+local secuenciaCamD = {
+  {name = "Der",
+  start = 1,
+  count = 4,
+  time = 2000,
+  loopCount = 0,
+  loopDirection ="bounce"  --"bounce", --forward
+}
+}
+
+local spriteCamD = display.newSprite(hojaCamD, secuenciaCamD)
+spriteCamD:play()
+spriteCamD:setFrame(1)
+screenGroup:insert(spriteCamD)
